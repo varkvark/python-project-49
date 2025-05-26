@@ -1,6 +1,7 @@
 *.egg-info/
 **/__pycache__/
 dist/
+demo.cast
 *.py[cod]
 *.pyc
 *.so
