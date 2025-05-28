@@ -35,3 +35,7 @@ brain-even
 brain-calc
 
 [![asciicast](https://asciinema.org/a/VV1jzhngsD4OIt43pGyvbKDWN.svg)](https://asciinema.org/a/VV1jzhngsD4OIt43pGyvbKDWN)
+
+brain_gcd
+
+[![asciicast](https://asciinema.org/a/kECmTxnRQA4Ffs8OmQfK5DSpn.svg)](https://asciinema.org/a/kECmTxnRQA4Ffs8OmQfK5DSpn)
