@@ -32,10 +32,17 @@ brain-even
 
 [![asciicast](https://asciinema.org/a/HNOxONfchdh9yIBYRu9aHdkvp.svg)](https://asciinema.org/a/HNOxONfchdh9yIBYRu9aHdkvp)
 
+
 brain-calc
 
 [![asciicast](https://asciinema.org/a/VV1jzhngsD4OIt43pGyvbKDWN.svg)](https://asciinema.org/a/VV1jzhngsD4OIt43pGyvbKDWN)
 
+
 brain_gcd
 
 [![asciicast](https://asciinema.org/a/kECmTxnRQA4Ffs8OmQfK5DSpn.svg)](https://asciinema.org/a/kECmTxnRQA4Ffs8OmQfK5DSpn)
+
+
+brain_progression
+
+[![asciicast](https://asciinema.org/a/IzjYVntz1tnDaXBObLIhhjwNc.svg)](https://asciinema.org/a/IzjYVntz1tnDaXBObLIhhjwNc)
