@@ -12,11 +12,11 @@ def launch(game):
     score = 0
     while score < ROUND_COUNT:
         question, correct_answer = game.questions_and_answers()
-        print(f'Question: {question}')
-        user_answer = prompt.string('Your answer: ').strip().lower()
+        print(f"Question: {question}")
+        user_answer = prompt.string("Your answer: ").strip().lower()
 
         if user_answer == correct_answer:
-            print('Correct!')
+            print("Correct!")
             score += 1
         else:
             print(
@@ -27,4 +27,4 @@ def launch(game):
             break
 
     if score == 3:
-        print(f'Congratulations, {name}!')
+        print(f"Congratulations, {name}!")
