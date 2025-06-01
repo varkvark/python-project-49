@@ -1,7 +1,7 @@
 from random import randint
 
 
-TERMS = 'What number is missing in the progression?'
+TERMS = "What number is missing in the progression?"
 
 
 def random_progression():
@@ -26,11 +26,11 @@ def questions_and_answers():
 
     for digit in range(len(progression)):
         if digit == random_digit:
-            new_list.append('..')
+            new_list.append("..")
         else:
             new_list.append(str(progression[digit]))
 
-    question = ' '.join(new_list)
+    question = " ".join(new_list)
     correct_answer = str(progression[random_digit])
 
     return question, correct_answer
