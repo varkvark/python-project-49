@@ -9,6 +9,6 @@ def is_even(number):
 
 
 def questions_and_answers():
-    question = randint(0, 100)
+    question = randint(0, 100)  # NOSONAR
     correct_answer = "yes" if is_even(question) else "no"
     return question, correct_answer
