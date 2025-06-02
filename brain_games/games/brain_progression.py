@@ -6,9 +6,9 @@ TERMS = "What number is missing in the progression?"
 
 def random_progression():
     progression = []
-    first_digit = randint(0, 100)
-    progression_length = randint(5, 10)
-    progression_step = randint(1, 10)
+    first_digit = randint(0, 100)  # NOSONAR
+    progression_length = randint(5, 10)  # NOSONAR
+    progression_step = randint(1, 10)  # NOSONAR
     counter = 0
 
     while counter < progression_length:
@@ -22,7 +22,7 @@ def random_progression():
 def questions_and_answers():
     new_list = []
     progression = random_progression()
-    random_digit = randint(0, len(progression) - 1)
+    random_digit = randint(0, len(progression) - 1)  # NOSONAR
 
     for digit in range(len(progression)):
         if digit == random_digit:
