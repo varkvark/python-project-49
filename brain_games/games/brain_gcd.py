@@ -16,8 +16,8 @@ def gcd(a, b):
 
 
 def questions_and_answers():
-    random_int1 = randint(0, 20)
-    random_int2 = randint(0, 20)
+    random_int1 = randint(0, 20)  # NOSONAR
+    random_int2 = randint(0, 20)  # NOSONAR
     question = f"{random_int1} {random_int2}"
     correct_answer = str(gcd(random_int1, random_int2))
     return question, correct_answer
